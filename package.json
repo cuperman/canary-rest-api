@@ -1,0 +1,7 @@
+{
+  "name": "cdk-blue-green-api",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Jeff Cooper <jeff@cuperman.net>",
+  "license": "MIT"
+}
