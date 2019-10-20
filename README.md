@@ -31,3 +31,24 @@ PATCH /contacts/{id}
 # DELETE a specific contact
 DELETE /contacts/{id}
 ```
+
+## Getting started
+
+To deploy this app, you need Node.js and CDK installed.
+
+* Install [Node.js](https://nodejs.org/en/download/)
+* Install CDK - `npm install -g aws-cdk@latest`
+
+First, build the backend lambda code:
+
+```bash
+cd backend
+npm run build
+```
+
+Then deploy to your AWS account with CDK:
+
+```bash
+cd infrastructure
+npm run cdk -- --profile $AWS_PROFILE deploy
+```
